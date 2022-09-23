@@ -1,0 +1,5 @@
+/.idea/
+/data-structures-algorithms.iml
+*/target/
+/out/
+*.iml
