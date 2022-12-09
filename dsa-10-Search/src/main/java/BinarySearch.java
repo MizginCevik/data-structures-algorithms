@@ -6,6 +6,7 @@ public class BinarySearch {
             numbers[i] = i;
         }
         System.out.println(binarySearchIterative(numbers, 6));
+        System.out.println(binarySearchRecursive(numbers, 6));
     }
 
     public static int binarySearchIterative(int[] array, int data) {
@@ -27,7 +28,7 @@ public class BinarySearch {
     }
 
     public static int binarySearchRecursive(int[] array, int data) {
-        return binarySearchRecursive(array, data, 0, array.length-1);
+        return binarySearchRecursive(array, data, 0, array.length - 1);
     }
 
     public static int binarySearchRecursive(int[] array, int data, int left, int right) {
