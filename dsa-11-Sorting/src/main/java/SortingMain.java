@@ -9,9 +9,10 @@ public class SortingMain {
 
 //        System.out.println(Arrays.toString(BubbleSort.bubbleSort(numbers)));
 //        System.out.println(Arrays.toString(SelectionSort.selectionSort(numbers)));
-        System.out.println(Arrays.toString(InsertionSort.insertionSort(numbers)));
-        System.out.println(Arrays.toString(InsertionSort.insertionSort(nums)));
-
+//        System.out.println(Arrays.toString(InsertionSort.insertionSort(numbers)));
+//        System.out.println(Arrays.toString(InsertionSort.insertionSort(nums)));
+        JD1MergeSort.mergeSort(numbers);
+        System.out.println(Arrays.toString(numbers));
     }
 
 }
