@@ -11,8 +11,11 @@ public class SortingMain {
 //        System.out.println(Arrays.toString(SelectionSort.selectionSort(numbers)));
 //        System.out.println(Arrays.toString(InsertionSort.insertionSort(numbers)));
 //        System.out.println(Arrays.toString(InsertionSort.insertionSort(nums)));
-        JD1MergeSort.mergeSort(numbers);
+//        JD1MergeSort.mergeSort(numbers);
+//        System.out.println(Arrays.toString(numbers));
+        JD1QuickSort.quickSort(numbers,0,numbers.length-1);
         System.out.println(Arrays.toString(numbers));
+
     }
 
 }
