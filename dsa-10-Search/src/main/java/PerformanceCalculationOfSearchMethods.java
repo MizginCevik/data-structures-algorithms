@@ -7,16 +7,16 @@ public class PerformanceCalculationOfSearchMethods {
             numbers[i] = i;
         }
         long[] linearSearchResults = linearSearch(numbers, 333333);
-        System.out.println("Linear Search Results:  " + linearSearchResults[0] + " miliseconds and " + linearSearchResults[1] + " comparisons..");
+        System.out.println("Linear Search Results:  " + linearSearchResults[0] + " milliseconds and " + linearSearchResults[1] + " comparisons..");
 
         long[] binarySearchResults = binarySearchIterative(numbers, 333333);
-        System.out.println("binary Search Results:  " + binarySearchResults[0] + " miliseconds and " + binarySearchResults[1] + " comparisons..");
+        System.out.println("Binary Search Results:  " + binarySearchResults[0] + " milliseconds and " + binarySearchResults[1] + " comparisons..");
 
         long[] ternarySearchResults = ternarySearchIterative(numbers, 333333);
-        System.out.println("Ternary Search Results:  " + ternarySearchResults[0] + " miliseconds and " + ternarySearchResults[1] + " comparisons..");
+        System.out.println("Ternary Search Results:  " + ternarySearchResults[0] + " milliseconds and " + ternarySearchResults[1] + " comparisons..");
 
         long[] jumpSearchResults = jumpSearch(numbers, 333333);
-        System.out.println("Jump Search Results:  " + jumpSearchResults[0] + " miliseconds and " + jumpSearchResults[1] + " comparisons..");
+        System.out.println("Jump Search Results:  " + jumpSearchResults[0] + " milliseconds and " + jumpSearchResults[1] + " comparisons..");
 
 
     }
