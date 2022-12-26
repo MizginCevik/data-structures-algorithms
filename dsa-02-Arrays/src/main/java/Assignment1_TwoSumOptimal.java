@@ -15,9 +15,11 @@ public class Assignment1_TwoSumOptimal {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < array.length; i++) {
             int potentialMatch = targetValue - array[i];
-            if (map.containsKey(potentialMatch)) return new int[]{i, map.get(potentialMatch)};
-            else map.put(array[i], i);
-
+            if (map.containsKey(potentialMatch)) {
+                return new int[]{i, map.get(potentialMatch)};
+            } else {
+                map.put(array[i], i);
+            }
         }
         return new int[]{};
     }

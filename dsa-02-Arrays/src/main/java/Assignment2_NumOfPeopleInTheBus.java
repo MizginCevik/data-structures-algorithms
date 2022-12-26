@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Assignment2_NumOfPeopleInTheBus {
 
     public static void main(String[] args) {
-        ArrayList<int[]> busStops = new ArrayList<int[]>();
+        ArrayList<int[]> busStops = new ArrayList<>();
         busStops.add(new int[]{10, 0});// first stop
         busStops.add(new int[]{3, 5});
         busStops.add(new int[]{2, 5}); // last stop
