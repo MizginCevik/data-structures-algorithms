@@ -1,11 +1,8 @@
-package com.cydeo;
-
 public class ExprBalanceCheck {
 
     public static void main(String[] args) {
 
         System.out.println(balanceCheck("(A*C) + ({V-M})"));
-
 
     }
 

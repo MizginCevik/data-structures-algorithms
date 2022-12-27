@@ -1,4 +1,4 @@
-package com.cydeo.MergeTwoSortedLL;
+package MergeTwoSortedLL;
 
 public class Solution {
 

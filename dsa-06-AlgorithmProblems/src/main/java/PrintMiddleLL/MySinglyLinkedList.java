@@ -1,4 +1,4 @@
-package com.cydeo.ReverseLinkedList;
+package PrintMiddleLL;
 
 public class MySinglyLinkedList {
     Node head;
@@ -22,17 +22,6 @@ public class MySinglyLinkedList {
             size++;
         }
 
-    }
-
-    void printNodes() {
-        Node current = head;
-        while (current != null) {
-            if (current.next == null) System.out.println(current.id + "=> null");
-            else {
-                System.out.print(current.id + "=> ");
-            }
-            current = current.next;
-        }
     }
 
 

@@ -1,5 +1,3 @@
-package com.cydeo;
-
 import java.util.Deque;
 import java.util.LinkedList;
 

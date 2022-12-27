@@ -1,4 +1,4 @@
-package com.cydeo.FindCycle;
+package FindCycle;
 
 public class ListNode {
     int val;

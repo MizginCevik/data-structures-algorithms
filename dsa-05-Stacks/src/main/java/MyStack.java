@@ -1,5 +1,3 @@
-package com.cydeo;
-
 import java.util.NoSuchElementException;
 
 public class MyStack<T> {

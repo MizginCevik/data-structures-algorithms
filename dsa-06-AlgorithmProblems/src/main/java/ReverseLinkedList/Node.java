@@ -1,4 +1,4 @@
-package com.cydeo.ReverseLinkedList;
+package ReverseLinkedList;
 
 public class Node {
     int id;

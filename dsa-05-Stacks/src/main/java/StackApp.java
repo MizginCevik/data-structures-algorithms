@@ -1,5 +1,3 @@
-package com.cydeo;
-
 public class StackApp {
 
     public static void main(String[] args) {
@@ -19,10 +17,6 @@ public class StackApp {
         }
 
         System.out.println(stack.peek()); //0
-
-
-
-
 
     }
 

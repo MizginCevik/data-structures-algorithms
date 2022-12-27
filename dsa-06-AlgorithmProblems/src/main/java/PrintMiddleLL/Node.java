@@ -1,4 +1,4 @@
-package com.cydeo.PrintMiddleLL;
+package PrintMiddleLL;
 
 public class Node {
     int id;

@@ -1,4 +1,4 @@
-package com.cydeo.FindCycle;
+package FindCycle;
 
 import java.util.HashSet;
 
