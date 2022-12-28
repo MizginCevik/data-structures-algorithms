@@ -1,9 +1,7 @@
 public class ExprBalanceCheck {
 
     public static void main(String[] args) {
-
         System.out.println(balanceCheck("(A*C) + ({V-M})"));
-
     }
 
     public static boolean balanceCheck(String expr) {
@@ -12,7 +10,7 @@ public class ExprBalanceCheck {
 
         // iterate over expr
         for (int i = 0; i < expr.length(); i++) {
-            Character ch = expr.charAt(i);
+            char ch = expr.charAt(i);
             // filter non player chars
             if (ch != '(' && ch != '[' && ch != '{' && ch != ')' && ch != ']' && ch != '}') {
                 continue;
